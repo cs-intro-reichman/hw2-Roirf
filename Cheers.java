@@ -23,7 +23,7 @@ public class Cheers {
                 double Times = Double.parseDouble(args[1]);
                 int j = 0;
                 while (j < Times) {
-                    System.out.println(word + "!");
+                    System.out.println(word + "!!!");
                     j++;        }
         
         }
