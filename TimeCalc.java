@@ -11,7 +11,7 @@ public class TimeCalc {
                 if (NewMinutes < 10) {
                 System.out.println("0" + NewHours + ":0" + NewMinutes);}
                 else {
-                System.out.println(NewHours + ":" + NewMinutes);} }
+                System.out.println("0" + NewHours + ":" + NewMinutes);} }
         else {
             if (NewMinutes < 10) {
             System.out.println(NewHours + ":0" + NewMinutes);}
