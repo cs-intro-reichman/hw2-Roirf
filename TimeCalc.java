@@ -10,6 +10,7 @@ public class TimeCalc {
             System.out.println(NewHours + ":0" + NewMinutes);}
             else
              {System.out.println(NewHours + ":" + NewMinutes);}
+             
     
         }
     }
