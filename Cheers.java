@@ -8,15 +8,15 @@ Great work boaz!
 // Prints a crowd cheering output.
 public class Cheers {
         public static void main(String[] args) {
-	    String word = args[0];
+	    String word = args[0].toUpperCase();
             String Anletters = "AEFHILMNORSX";
             int i = 0;
             while (i < word.length()) {
                 char letter = word.charAt(i);
                 if (Anletters.indexOf(letter) != -1) {
-                    System.out.println("Give Me An " + letter + ": " + letter + "!" );
+                    System.out.println("Give me a " + letter + ": " + letter + "!" );
                 } else {
-                    System.out.println("Give Me A " + letter + ": " + letter + "!" );
+                    System.out.println("Give m a" + letter + ": " + letter + "!" );
                 }
                 i++; }
                 System.out.println("What does that spell?");
