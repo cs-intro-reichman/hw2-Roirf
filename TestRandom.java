@@ -11,9 +11,9 @@ public  class  TestRandom {
 		    upper++;}}
 
 		double Ratio;
-
 		System.out.println("Lower half count: " + lower);
 		System.out.println("Upper half count: " + upper);
+		
 		if (lower > upper) {
 			Ratio =  (double)(lower /upper);}
 			else {
