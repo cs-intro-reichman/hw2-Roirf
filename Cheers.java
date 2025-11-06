@@ -14,9 +14,9 @@ public class Cheers {
             while (i < word.length()) {
                 char letter = word.charAt(i);
                 if (Anletters.indexOf(letter) != -1) {
-                    System.out.println("Give me a " + letter + ": " + letter + "!" );
+                    System.out.println("Give me an "+ letter + ": " + letter + "!" );
                 } else {
-                    System.out.println("Give m a" + letter + ": " + letter + "!" );
+                    System.out.println("Give m a " + letter + ": " + letter + "!" );
                 }
                 i++; }
                 System.out.println("What does that spell?");
